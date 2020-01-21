@@ -2,8 +2,8 @@
   "use strict";
   $(window).on("load", function() { // makes sure the whole site is loaded
     //preloader
-    $("#status").fadeOut(); // will first fade out the loading animation
-    $("#preloader").delay(450).fadeOut("slow"); // will fade out the white DIV that covers the website.
+    $("#status").fadeOut(1000); // will first fade out the loading animation
+    $("#preloader").delay(800).fadeOut(1000); // will fade out the white DIV that covers the website.
     
     //masonry
     $('.grid').masonry({
