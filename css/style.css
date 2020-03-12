@@ -426,6 +426,60 @@ img { max-width: 100%; }
   transform: translate3d(0, 0, 0);
 }
 
+/* ---------- Button ----------------- */
+.btn {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  margin: 20px;
+}
+
+.btn-xl {
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border-color: #f68060;
+  color: #f68060;
+  border-width: medium;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #f68060 !important;
+  border-color: #f68060 !important;
+  color: white;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-color: #f68060;
+  color: #f68060;
+  border-width: small;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #f68060 !important;
+  border-color: #f68060 !important;
+  color: white;
+}
+
+.btn-secondary:active, .btn-secondary:focus {
+  background-color: #f68060 !important;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active {
+  background-color: #f68060 !important;
+  border-color: #f68060 !important;
+  color: white;
+}
+
+
 /*----------------------------------------- 5) Typography --------------------------------------------------*/
 h1,
 h2,
@@ -815,7 +869,7 @@ ul.portfolio-image li .desc{
 .grid-item .wrap-article {
   border: 1px solid rgba(129, 129, 129, 0.1);
   background: #ffffff;
-  padding: 30px 20px;
+  padding: 20px 20px;
 }
 .grid-item .wrap-article img {
   text-align: center;
@@ -876,11 +930,12 @@ ul.portfolio-image li .desc{
   margin-top: 30px;
 }
 .grid-item .wrap-article .content-blog {
-  margin-top: 30px;
-  padding: 0 10px 0 10px;
+  margin-top: 25px;
+  padding: 0px 10px 0px 10px;
   text-align: justify;
   color: #5f5f5f;
 }
+
 /*---------- f. quote -----------*/
 #about{
   min-height: 650px;
